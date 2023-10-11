@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    for i in list1:
+        if i==0:
+            i=False
+    return list1
+print(main([1, 0, 0, 0, 0]))
